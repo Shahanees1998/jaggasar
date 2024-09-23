@@ -7,8 +7,8 @@ const MainBody = (): JSX.Element => {
 
   const productTemplate = (image: string): any => {
     return (
-            <div className='flex items-center justify-center'>
-                <img className="px-2 w-32 h-32" src={`/images/hero/${image}.png`} />
+            <div className={`flex items-center justify-center ${image === '4' ? '-mt-4' : ''}`}>
+                <img className='h-38' src={`/images/hero/${image}.png`} />
             </div>
     )
   }
@@ -16,7 +16,7 @@ const MainBody = (): JSX.Element => {
   const responsiveOptions = [
     {
       breakpoint: '1400px',
-      numVisible: 5,
+      numVisible: 4,
       numScroll: 1
     },
     {
@@ -26,12 +26,12 @@ const MainBody = (): JSX.Element => {
     },
     {
       breakpoint: '767px',
-      numVisible: 3,
+      numVisible: 4,
       numScroll: 1
     },
     {
       breakpoint: '575px',
-      numVisible: 2,
+      numVisible: 1,
       numScroll: 1
     }
   ]
@@ -79,7 +79,7 @@ const MainBody = (): JSX.Element => {
                         </div>
                     </div>
                 </div>
-                <div className="flex items-center justify-between mt-16">
+                <div className="flex main-carousel items-center justify-between mt-16">
                     <Carousel value={products} autoplayInterval={3000} className="custom-carousel" circular numScroll={1} numVisible={3} responsiveOptions={responsiveOptions} itemTemplate={productTemplate} />
                 </div>
             </div>

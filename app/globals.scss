@@ -634,6 +634,10 @@ body {
   --tw-backdrop-sepia: ;
 }
 
+.ud-header {
+  z-index: 99 !important;
+}
+
 ::backdrop {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;

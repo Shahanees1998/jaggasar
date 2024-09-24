@@ -91,24 +91,25 @@ body {
 }
 
 .box-border {
-    border: 1px solid #201f1f;
+  border: 1px solid #201f1f;
 }
 
-.main-carousel .p-carousel-prev{
+.main-carousel .p-carousel-prev {
   display: none !important;
 }
 
-.main-carousel .p-carousel-next{
+.main-carousel .p-carousel-next {
   display: none !important;
 }
 
-.p-carousel-prev{
+.p-carousel-prev {
   background-color: #13C296 !important;
   color: white;
   border-radius: 20px;
   padding: 10px;
 }
-.p-carousel-next{
+
+.p-carousel-next {
   background-color: #13C296 !important;
   color: white;
   border-radius: 20px;
@@ -116,8 +117,8 @@ body {
 }
 
 .cardImage {
-    height: 160px;
-    object-fit: cover;
+  height: 160px;
+  object-fit: cover;
 }
 
 .box-client {
@@ -700,6 +701,16 @@ body {
 @media (min-width: 720px) {
   .container {
     max-width: 720px;
+  }
+}
+
+@media (max-width: 800px) {
+  .liner-box {
+    width: 100%;
+    height: unset !important;
+    display: grid;
+    align-items: end;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), #ffffff0d);
   }
 }
 

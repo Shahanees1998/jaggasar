@@ -9,7 +9,7 @@ const HeaderComponent = (): JSX.Element => {
 
   return (
         <header
-            className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-primary"
+            className="ud-header fixed left-0 top-0 z-40 flex w-full items-center bg-primary"
         >
             <div className="container">
                 <div className="relative -mx-4 flex items-center justify-between">

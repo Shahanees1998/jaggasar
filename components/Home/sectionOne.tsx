@@ -19,8 +19,8 @@ const SectionOne = async (): Promise<JSX.Element> => {
                     </div>
                 </div>
                 <div className="-mx-4 flex flex-wrap items-center">
-                    <div className="w-full px-10 md:w-1/1 lg:w-1/1">
-                        <div className="liner-box px-10 py-5 rounded-xl relative z-10">
+                    <div className="w-full px-5 md:w-1/1 lg:w-1/1">
+                        <div className="liner-box px-5 py-5 rounded-xl relative z-10">
                             <div className="flex flex-wrap items-center">
                                 <div className="w-full py-2 md:w-1/2 lg:w-1/2">
                                     <div className="opacity1 mt-5">

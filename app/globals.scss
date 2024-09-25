@@ -98,6 +98,7 @@ body {
   display: none !important;
 }
 
+
 .main-carousel .p-carousel-next {
   display: none !important;
 }
@@ -632,6 +633,14 @@ body {
   --tw-backdrop-opacity: ;
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
+}
+
+.sticky {
+  background-color: rgb(0 0 0 / 50%) !important
+}
+
+.sticky #navbarCollapse li>a {
+  color: rgb(148 152 159) !important;
 }
 
 .ud-header {
@@ -1991,6 +2000,11 @@ body {
   line-height: 1.25rem;
 }
 
+.mobileNav a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -3323,6 +3337,10 @@ body {
   display: none;
 }
 
+.web-none {
+  display: none !important;
+}
+
 @media (min-width: 1320px) {
   .\32xl\:ml-20 {
     margin-left: 5rem;
@@ -3337,6 +3355,17 @@ body {
   .text-6xl {
     font-size: 3rem;
     text-align: center;
+  }
+
+  .web-none {
+    display: block !important;
+  }
+
+  .mobile-navbar {
+    background-color: #060606 !important;
+    position: fixed;
+    height: 100vh;
+    border-radius: 0;
   }
 
   .sm-center {
@@ -3404,10 +3433,31 @@ body {
     margin-top: 40px;
   }
 
+  .nav-shadow {
+    box-shadow: 0px 3px 10px #23d873;
+  }
+
   .mobileNav {
+    height: 35px;
     width: 250px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+  }
+
+  .mobile-menu-icon {
+    position: absolute;
+    right: 0;
+  }
+
+  .mobileNav a {
+    padding-top: 3px;
+    padding-bottom: unset !important;
+  }
+
+  .sticky {
+    height: 55px !important;
   }
 
   .sm-set {

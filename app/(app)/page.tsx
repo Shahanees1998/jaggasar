@@ -133,7 +133,7 @@ export default function Home () {
                                     href="#"
                                     className="text-base flex items-center font-medium bg-transparent border px-6 py-3 bg-opacity-20 rounded-lg text-dark hover:bg-opacity-100 hover:bg-primary dark:text-white dark:hover:text-primary"
                                 >
-                                    Learn More <img className="w-3 ml-2" src="/images/hero/arrow.png" />
+                                    Learn More <img className="w-3 ml-2" src="/images/hero/arrow.svg" />
                                 </a>
                             </div>
                         </div>

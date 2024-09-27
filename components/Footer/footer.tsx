@@ -200,10 +200,10 @@ const FooterComponent = async (): Promise<JSX.Element> => {
                         </div>
                         <div className="w-full px-4 md:w-1/2 lg:w-1/2">
                             <div className="my-1 flex justify-end sm-set">
-                                <a href="#"><img className="px-3" src="/images/hero/Link (1).png" /></a>
-                                <a href="#"><img className="px-3" src="/images/hero/Link (2).png" /></a>
-                                <a href="#"><img className="px-3" src="/images/hero/Link (3).png" /></a>
-                                <a href="#"><img className="px-3" src="/images/hero/Link (4).png" /></a>
+                                <a href="#"><img className="px-3" src="/images/hero/Link (2).svg" /></a>
+                                <a href="#"><img className="px-3" src="/images/hero/Link (1).svg" /></a>
+                                <a href="#"><img className="px-3" src="/images/hero/Link.svg" /></a>
+                                <a href="#"><img className="px-3" src="/images/hero/Link (3).svg" /></a>
                             </div>
                         </div>
                     </div>

@@ -45,7 +45,7 @@ export default function Home () {
                   </div>
 
                   <a href="javascript:void(0)" className="inline-flex items-center mt-8 justify-center rounded-xl bg-primary px-7 py-3 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark">
-                    Create Account <img className="w-3 ml-5" src="/images/auth/arrow.png" />
+                    Create Account <img className="w-3 ml-5" src="/images/auth/arrow.svg" />
                   </a>
 
                   <p className="text-base text-lg mt-8 leading-relaxed text-white dark:text-dark-6">

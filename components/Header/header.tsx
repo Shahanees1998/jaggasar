@@ -24,21 +24,7 @@ const HeaderComponent = (): JSX.Element => {
                     </div>
                     <div className="flex w-full items-center justify-between px-4 relative z-40">
                         <div className="mx-auto mobile-menu-icon">
-                            <button
-                                id="navbarToggler"
-                                onClick={() => { openMenu(!menu) }}
-                                className="right-4 menumt top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
-                            >
-                                <span
-                                    className="relative my-[6px] block h-[2px] w-[30px] bg-white"
-                                ></span>
-                                <span
-                                    className="relative my-[6px] block h-[2px] w-[30px] bg-white"
-                                ></span>
-                                <span
-                                    className="relative my-[6px] block h-[2px] w-[30px] bg-white"
-                                ></span>
-                            </button>
+                            <img className='cursor-pointer pr-4 md:hidden' src={'/images/logo/hmbrg.svg'} onClick={() => { openMenu(!menu) }} />
                             <nav
                                 id="navbarCollapse"
                                 className="absolute right-0 z-40 top-full mx-auto hidden w-full rounded-lg py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6 sm-menu"
@@ -66,6 +52,9 @@ const HeaderComponent = (): JSX.Element => {
                                 id="mobileNavbarCollapse"
                                 className="mobile-navbar right-0 z-40 top-full mx-auto web-none w-full rounded-lg py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6 sm-menu"
                             >
+                                <div className='w-full flex justify-end pr-4 mt-2 items-end'>
+                                    <img src={'/images/hero/cross.svg'} className='w-4 h-4' onClick={() => { openMenu(!menu) }}/>
+                                </div>
                                 <ul className="blcok lg:flex topNav">
                                     {
                                         nav?.map((item, index) => {
@@ -82,7 +71,14 @@ const HeaderComponent = (): JSX.Element => {
                                           )
                                         })
                                     }
+                                    <img src={'/images/hero/contact.svg'} className='mt-10 ml-4' />
 
+                                    <div className='flex absolute mt-24 gap-4'>
+                                        <img src={'/images/hero/u.svg'} className='ml-4 ' />
+                                        <img src={'/images/hero/x.svg'} />
+                                        <img src={'/images/hero/i.svg'} />
+
+                                    </div>
                                 </ul>
                             </nav>}
                         </div>

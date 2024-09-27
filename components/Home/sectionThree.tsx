@@ -21,7 +21,7 @@ const SectionThree = async (): Promise<JSX.Element> => {
                 <div className="-mx-4 flex flex-wrap items-center">
                     <div className="w-full mt-12 px-5 md:w-1/2 lg:w-1/2">
                         <div className="relative z-10">
-                            <img className="w-full mt-5 mb-3" src="/images/hero/success1.png" />
+                            <img className="w-full mt-5 mb-3" src="/images/hero/success1.svg" />
                             <div className="opacity1 mt-5">
                                 <h6 className="mb-1 text-md mt-5 font-medium text-green">
                                     Ecommerce Website Development
@@ -37,7 +37,7 @@ const SectionThree = async (): Promise<JSX.Element> => {
                     </div>
                     <div className="w-full mt-12 px-5 md:w-1/2 lg:w-1/2">
                         <div className="relative z-10">
-                            <img className="w-full mt-5 mb-3" src="/images/hero/success2.png" />
+                            <img className="w-full mt-5 mb-3" src="/images/hero/success2.svg" />
                             <div className="opacity1 mt-5">
                                 <h6 className="mb-1 text-md mt-5 font-medium text-green">
                                     SaaS Application Design & Development
@@ -53,7 +53,7 @@ const SectionThree = async (): Promise<JSX.Element> => {
                     </div>
                     <div className="w-full mt-12 px-5 md:w-1/3 lg:w-1/3">
                         <div className="relative z-10">
-                            <img className="w-full mt-5 mb-3" src="/images/hero/success3.png" />
+                            <img className="w-full mt-5 mb-3" src="/images/hero/success3.svg" />
                             <div className="opacity1 mt-5">
                                 <h6 className="mb-1 text-md mt-5 font-medium text-green">
                                     Social Media Campaign & Ad Management
@@ -69,7 +69,7 @@ const SectionThree = async (): Promise<JSX.Element> => {
                     </div>
                     <div className="w-full mt-12 px-5 md:w-1/3 lg:w-1/3">
                         <div className="relative z-10">
-                            <img className="w-full mt-5 mb-3" src="/images/hero/success4.png" />
+                            <img className="w-full mt-5 mb-3" src="/images/hero/success4.svg" />
                             <div className="opacity1 mt-5">
                                 <h6 className="mb-1 text-md mt-5 font-medium text-green">
                                     SEO Optimization & Content Strategy
@@ -85,7 +85,7 @@ const SectionThree = async (): Promise<JSX.Element> => {
                     </div>
                     <div className="w-full mt-12 px-5 md:w-1/3 lg:w-1/3">
                         <div className="relative z-10">
-                            <img className="w-full mt-5 mb-3" src="/images/hero/success5.png" />
+                            <img className="w-full mt-5 mb-3" src="/images/hero/success5.svg" />
                             <div className="opacity1 mt-5">
                                 <h6 className="mb-1 text-md mt-5 font-medium text-green">
                                     UI/UX Redesign for Mobile App

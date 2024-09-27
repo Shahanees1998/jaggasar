@@ -19,7 +19,7 @@ const SectionFive = async (): Promise<JSX.Element> => {
                         </p>
                         <div className="flex justify-center mt-12">
                             <button className="signUpBtn sm-px-10 rounded-full flex items-center btn-gradient px-10 py-3 text-base font-medium text-white mr-3 duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark">
-                                Book a Call <img className="ml-5" src="/images/hero/arrow.png" />
+                                Book a Call <img className="ml-5" src="/images/hero/arrow.svg" />
                             </button>
                             <button className="signUpBtn sm-px-10 rounded-full flex items-center bg-gray-2 px-8 py-3 text-base font-medium text-white mr-3 duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark">
                                 Learn More

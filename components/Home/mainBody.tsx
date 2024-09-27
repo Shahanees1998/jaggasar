@@ -55,7 +55,7 @@ const MainBody = (): JSX.Element => {
 
                                     className="signUpBtn sm-px-10 rounded-full flex items-center btn-gradient px-10 py-3 text-base font-medium text-white mr-3 duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
                                 >
-                                    Book a Call <img className="ml-5" src="/images/hero/arrow.png" />
+                                    Book a Call <img className="ml-5" src="/images/hero/arrow.svg" />
                                 </button>
                                 <button
 
@@ -65,17 +65,17 @@ const MainBody = (): JSX.Element => {
                                 </button>
                             </div>
                             <div className="flex flex-wrap justify-between items-center sm-jus-center">
-                                <span className="flex items-center py-10 sm-py-10"><img src="/images/hero/badge 1.png" /><p className="text-white ml-2">10 Years of expertise</p></span>
+                                <span className="flex items-center py-10 sm-py-10"><img src="/images/hero/badge 1.svg" /><p className="text-white ml-2">10 Years of expertise</p></span>
                                 <div className="border-right sm-hidden"></div>
-                                <span className="flex items-center py-10 sm-py-10"><img src="/images/hero/feedback 1.png" /><p className="text-white ml-2">50+ Satisfied Clients</p></span>
+                                <span className="flex items-center py-10 sm-py-10"><img src="/images/hero/feedback 1.svg" /><p className="text-white ml-2">50+ Satisfied Clients</p></span>
                                 <div className="border-right sm-hidden"></div>
-                                <span className="flex items-center py-10 sm-py-10"><img src="/images/hero/brief 1.png" /><p className="text-white ml-2">100+ Successful Projects</p></span>
+                                <span className="flex items-center py-10 sm-py-10"><img src="/images/hero/brief 1.svg" /><p className="text-white ml-2">100+ Successful Projects</p></span>
                             </div>
                         </div>
                     </div>
                     <div className="w-full px-4 md:w-1/2 lg:w-1/2">
                         <div className="wow fadeInUp group" data-wow-delay=".1s">
-                            <img className="w-full" src="/images/hero/banner-img.png" />
+                            <img className="w-full" src="/images/hero/banner-img.svg" />
                         </div>
                     </div>
                 </div>

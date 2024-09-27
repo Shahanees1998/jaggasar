@@ -19,7 +19,7 @@ const SectionOne = async (): Promise<JSX.Element> => {
                     </div>
                 </div>
                 <div className="-mx-4 flex flex-wrap items-center">
-                    <div className="w-full px-5 md:w-1/1 lg:w-1/1">
+                    <div className="w-full section-two px-5 md:w-1/1 lg:w-1/1">
                         <div className="liner-box px-5 py-5 rounded-xl relative z-10">
                             <div className="flex flex-wrap items-center">
                                 <div className="w-full py-2 md:w-1/2 lg:w-1/2">
@@ -39,7 +39,7 @@ const SectionOne = async (): Promise<JSX.Element> => {
                                     </div>
                                 </div>
                                 <div className="w-full py-2 md:w-1/2 lg:w-1/2">
-                                    <img className="w-full" src="/images/hero/dev.png" />
+                                    <img className="w-full" src="/images/hero/dev.svg" />
                                 </div>
                             </div>
                         </div>
